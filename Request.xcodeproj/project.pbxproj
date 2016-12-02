@@ -14,6 +14,7 @@
 		308008261DF1E6AC00F51C42 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008231DF1E6AC00F51C42 /* Service.swift */; };
 		308008281DF1E78100F51C42 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008271DF1E78100F51C42 /* Result.swift */; };
 		3080082A1DF1E82400F51C42 /* URLSession+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008291DF1E82400F51C42 /* URLSession+Service.swift */; };
+		3080082C1DF1E86100F51C42 /* Bundle+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080082B1DF1E86100F51C42 /* Bundle+Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		308008231DF1E6AC00F51C42 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		308008271DF1E78100F51C42 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		308008291DF1E82400F51C42 /* URLSession+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Service.swift"; sourceTree = "<group>"; };
+		3080082B1DF1E86100F51C42 /* Bundle+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Service.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				308008271DF1E78100F51C42 /* Result.swift */,
 				308008221DF1E6AC00F51C42 /* Request.swift */,
 				308008231DF1E6AC00F51C42 /* Service.swift */,
+				3080082B1DF1E86100F51C42 /* Bundle+Service.swift */,
 				308008291DF1E82400F51C42 /* URLSession+Service.swift */,
 			);
 			path = Sources;
