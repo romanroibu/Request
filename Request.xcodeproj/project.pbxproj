@@ -163,6 +163,7 @@
 				TargetAttributes = {
 					3070B1EF1DF1E16E004A98CB = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Manual;
 					};
 					3070B1F81DF1E16E004A98CB = {
@@ -216,6 +217,7 @@
 				308008251DF1E6AC00F51C42 /* Request.swift in Sources */,
 				3080082A1DF1E82400F51C42 /* URLSession+Service.swift in Sources */,
 				308008261DF1E6AC00F51C42 /* Service.swift in Sources */,
+				3080082C1DF1E86100F51C42 /* Bundle+Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +344,7 @@
 		3070B2051DF1E16E004A98CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -354,6 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.romanroibu.swift.Request;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -361,6 +365,7 @@
 		3070B2061DF1E16E004A98CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -380,6 +385,7 @@
 		3070B2081DF1E16E004A98CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
@@ -395,6 +401,7 @@
 		3070B2091DF1E16E004A98CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
