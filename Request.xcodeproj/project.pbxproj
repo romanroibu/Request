@@ -13,6 +13,7 @@
 		308008251DF1E6AC00F51C42 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008221DF1E6AC00F51C42 /* Request.swift */; };
 		308008261DF1E6AC00F51C42 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008231DF1E6AC00F51C42 /* Service.swift */; };
 		308008281DF1E78100F51C42 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008271DF1E78100F51C42 /* Result.swift */; };
+		3080082A1DF1E82400F51C42 /* URLSession+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008291DF1E82400F51C42 /* URLSession+Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		308008221DF1E6AC00F51C42 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		308008231DF1E6AC00F51C42 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		308008271DF1E78100F51C42 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		308008291DF1E82400F51C42 /* URLSession+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Service.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				308008271DF1E78100F51C42 /* Result.swift */,
 				308008221DF1E6AC00F51C42 /* Request.swift */,
 				308008231DF1E6AC00F51C42 /* Service.swift */,
+				308008291DF1E82400F51C42 /* URLSession+Service.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				308008281DF1E78100F51C42 /* Result.swift in Sources */,
 				308008251DF1E6AC00F51C42 /* Request.swift in Sources */,
+				3080082A1DF1E82400F51C42 /* URLSession+Service.swift in Sources */,
 				308008261DF1E6AC00F51C42 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
