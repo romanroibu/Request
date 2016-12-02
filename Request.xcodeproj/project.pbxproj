@@ -10,6 +10,7 @@
 		3070B1FA1DF1E16E004A98CB /* Request.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3070B1F01DF1E16E004A98CB /* Request.framework */; };
 		3080081C1DF1E2AB00F51C42 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 3070B1F31DF1E16E004A98CB /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		308008201DF1E34000F51C42 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080081E1DF1E34000F51C42 /* RequestTests.swift */; };
+		308008251DF1E6AC00F51C42 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308008221DF1E6AC00F51C42 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		3070B1F91DF1E16E004A98CB /* RequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3080081D1DF1E34000F51C42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3080081E1DF1E34000F51C42 /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		308008221DF1E6AC00F51C42 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				3070B1F41DF1E16E004A98CB /* Info.plist */,
 				3070B1F31DF1E16E004A98CB /* Request.h */,
+				308008221DF1E6AC00F51C42 /* Request.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308008251DF1E6AC00F51C42 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
